@@ -1,0 +1,13 @@
+@import "./typography.css";
+
+html, body, #___gatsby {
+    height: 100%;
+    background-color: #282a36;
+    color: #bd93f9;
+    font-family: "Realist-Regular";
+    font-weight: normal;
+}
+
+#gatsby-focus-wrapper {
+    height: 100%;
+}

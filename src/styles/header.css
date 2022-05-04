@@ -1,0 +1,20 @@
+@import "./typography.css";
+
+.color-nav {
+    background-color: #282a36;
+    box-shadow: 0 4px 5px -5px black;
+}
+
+.text-nav {
+    color: #50fa7b !important;
+    font-family: "Realist-Regular";
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.brand-nav {
+    color: #50fa7b !important;
+    font-family: "Realist-Black";
+    font-size: 30px;
+    font-weight: bold;
+}

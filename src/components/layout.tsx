@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
-import { Nav, Navbar, Container, Row } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from './header'
 
 interface LayoutProps {
     children: React.ReactNode;
@@ -8,26 +8,14 @@ interface LayoutProps {
 
 const Layout = ({children}:LayoutProps) => {
     return (
-        <Container fluid>
-            <Row>
-                <Navbar bg="dark" variant="dark">
-                    <Container fluid>
-                        <Navbar.Brand href="/">Brian Yen</Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="me-auto">
-                                <Nav.Link href="/about">About</Nav.Link>
-                                <Nav.Link href="/projects">Projects</Nav.Link>
-                                <Nav.Link href="/fun">Fun</Nav.Link>
-                            </Nav>
-                        </Navbar.Collapse>
-                    </Container>
-                </Navbar>
-            </Row>
-            <Row>
+        <div className="d-flex flex-column h-100 w-100">
+            <div>
+                <Header></Header>
+            </div>
+            <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
                 {children}
-            </Row>
-        </Container>
+            </div>
+        </div>
     )
 }
 
