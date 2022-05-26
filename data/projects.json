@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Portfolio Site",
+        "desc": "Just a fun little portfolio site project using Gatsby, React Typescript, Bootstrap and AWS Amplify",
+        "status": "Complete"
+    },
+    {
+        "title": "Sudoku Solver",
+        "desc": "Sudoku solver written in Python",
+        "status": "Complete"
+    },
+    {
+        "title": "Orgo Singapore Website",
+        "desc": "Client site using Django, Django REST, Tailwind and Javascript",
+        "status": "In Progress"
+    }
+]

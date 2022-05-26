@@ -1,0 +1,11 @@
+@import "./typography.css";
+
+.text-intro {
+    font-family: "Realist-Black";
+    font-weight: bold;
+}
+
+.text-sub {
+    font-family: "Realist-Regular";
+    font-weight: normal;
+}

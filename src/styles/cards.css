@@ -1,0 +1,18 @@
+@import "./typography.css";
+
+.proj-card {
+    background-color: #282a36;
+    box-shadow: 0px 0px 5px -1px black;
+}
+
+.card-title {
+    color: #8be9fd;
+    font-family: "Realist-Black";
+    font-weight: bold;
+}
+
+.card-text {
+    color: #ff79c6;
+    font-family: "Realist-Regular";
+    font-weight: normal;
+}
