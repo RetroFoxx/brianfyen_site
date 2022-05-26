@@ -6,6 +6,7 @@ const AboutPage = () => {
     return (
         <main style={{ height: '100%' }}>
             <Layout>
+                <span>Incomplete :(</span>
             </Layout>
         </main>
     )
